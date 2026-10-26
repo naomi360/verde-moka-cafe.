@@ -1,0 +1,181 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verde Moka Café</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Georgia, 'Times New Roman', serif;
+            background-color: #E8E0D2;
+            color: #4B3A2F;
+        }
+
+        header {
+            background-color: #A8B99A;
+            color: white;
+            text-align: center;
+            padding: 35px 15px;
+        }
+
+        header h1 {
+            font-size: 38px;
+            margin: 0;
+        }
+
+        nav {
+            background-color: #D6C6B4;
+            text-align: center;
+            padding: 16px;
+        }
+
+        nav a {
+            color: #4B3A2F;
+            text-decoration: none;
+            margin: 10px;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        #inicio {
+            background-color: #F5F0E7;
+        }
+
+        h2 {
+            color: #657A5C;
+            font-size: 28px;
+        }
+
+        .menu {
+            background-color: #DDE5D5;
+        }
+
+        .productos {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .producto {
+            background-color: #FFFDF7;
+            width: 230px;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px #00000015;
+        }
+
+        .producto h3 {
+            color: #6B4F3A;
+        }
+
+        .precio {
+            font-size: 20px;
+            font-weight: bold;
+            color: #657A5C;
+        }
+
+        #nosotros {
+            background-color: #EFE6DA;
+        }
+
+        #contacto {
+            background-color: #C4D1BA;
+        }
+
+        footer {
+            background-color: #6B5949;
+            color: #FFFDF7;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>☕ Verde Moka Café</h1>
+        <p>Un pequeño rincón para disfrutar un buen café</p>
+    </header>
+
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#menu">Menú</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <section id="inicio">
+        <h2>¡Bienvenidos a Verde Moka!</h2>
+
+        <p>
+            Disfruta de café recién preparado, bebidas deliciosas
+            y postres caseros en un ambiente tranquilo, cálido y acogedor.
+        </p>
+    </section>
+
+    <section id="menu" class="menu">
+        <h2>🍰 Nuestro menú</h2>
+
+        <div class="productos">
+
+            <div class="producto">
+                <h3>☕ Café Latte</h3>
+                <p>Café espresso con leche cremosa.</p>
+                <p class="precio">$55</p>
+            </div>
+
+            <div class="producto">
+                <h3>🍵 Matcha Latte</h3>
+                <p>Bebida suave de matcha con leche.</p>
+                <p class="precio">$60</p>
+            </div>
+
+            <div class="producto">
+                <h3>🍰 Pastel de chocolate</h3>
+                <p>Rebanada de pastel casero.</p>
+                <p class="precio">$50</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="nosotros">
+        <h2>Sobre nosotros</h2>
+
+        <p>
+            Verde Moka Café nació como un espacio para compartir
+            momentos especiales acompañados de una buena taza de café.
+            Nuestra decoración combina tonos verdes pastel, beige
+            y café para crear un ambiente relajante.
+        </p>
+    </section>
+
+    <section id="contacto">
+        <h2>💚 Visítanos</h2>
+
+        <p>📍 Plaza Central, Magdalena, Jalisco</p>
+        <p>📞 33 1234 5678</p>
+        <p>✉️ verdemokacafe@gmail.com</p>
+    </section>
+
+    <footer>
+        <p>☕ Verde Moka Café</p>
+        <p>Créditos: <strong>Allison Naomi</strong></p>
+        <p>Proyecto escolar de HTML</p>
+    </footer>
+
+</body>
+</html>
